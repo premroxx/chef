@@ -3,7 +3,6 @@
 cd /tmp/
 wget https://www.opscode.com/chef/install.sh | sudo bash
 chef-client -v
-
 #Run Cookbook
 # mkdir /var/chef/
 # mkdir /var/chef/cookbooks
