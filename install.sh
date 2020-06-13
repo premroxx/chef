@@ -2,7 +2,8 @@
 #Chef Client Install
 echo "This is a sample script to test auto run during boot"
 cd /tmp/
-wget https://www.opscode.com/chef/install.sh | sudo bash
+#wget https://www.opscode.com/chef/install.sh | sudo bash
+curl -L https://www.chef.io/chef/install.sh | sudo bash
 chef-client -v
 #Run Cookbook
 # mkdir /var/chef/
