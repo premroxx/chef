@@ -2,10 +2,9 @@
 #Chef Client Install
 echo "$USER"
 cd /tmp/
-wget https://www.opscode.com/chef/install.sh | sudo bash
+#wget https://www.opscode.com/chef/install.sh | sudo bash
 #curl -L https://omnitruck.chef.io/install.sh | sudo bash
-
-chef-client -v
+#chef-client -v
 #Run Cookbook
 # mkdir /var/chef/
 # mkdir /var/chef/cookbooks
