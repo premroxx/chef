@@ -1,6 +1,6 @@
 #!/bin/bash
 #Chef Client Install
-echo "$USER"
+echo "$USER" > test.txt
 cd /tmp/
 #wget https://www.opscode.com/chef/install.sh | sudo bash
 #curl -L https://omnitruck.chef.io/install.sh | sudo bash
