@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #Chef Client Install
 echo "$USER" > test.txt
 cd /tmp/
