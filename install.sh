@@ -1,6 +1,7 @@
 #!/bin/bash
 #Chef Client Install
-echo "$USER" > test2.txt
+#echo "$USER" > test2.txt
+echo "this has been written via cloud-init" + $(date) >> /tmp/myScript.txt
 cd /tmp/
 #wget https://www.opscode.com/chef/install.sh | sudo bash
 #curl -L https://omnitruck.chef.io/install.sh | sudo bash
