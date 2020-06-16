@@ -1,11 +1,14 @@
 #!/bin/bash
 #Chef Client Install
-echo "$USER" >> /tmp/myScript1.txt
-echo "this has been written via cloud-init" + $(date) >> /tmp/myScript.txt
+#echo "$USER" >> /tmp/myScript1.txt
+#echo "this has been written via cloud-init" + $(date) >> /tmp/myScript.txt
 cd /tmp/
 #wget https://www.opscode.com/chef/install.sh | sudo bash
 #curl -L https://omnitruck.chef.io/install.sh | sudo bash
-#chef-client -v
+whoami
+wget https://www.opscode.com/chef/install.sh
+bash install.sh
+chef-client -v
 #Run Cookbook
 # mkdir /var/chef/
 # mkdir /var/chef/cookbooks
